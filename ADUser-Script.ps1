@@ -1,7 +1,5 @@
 ﻿import-module activedirectory
 
-$nameds
-
 while ($true) {
 
 $nameds = read-host "Welcher User soll kopiert werden?" #fragt den Admin nach dem Anmeldenamen des zu kopierenden Users und speichert diesen in einer Variable.
